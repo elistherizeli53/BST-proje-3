@@ -1,0 +1,45 @@
+Binary Search Tree (BST) Oluşturma
+
+Verilen Dizi: [7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+
+Adımlar
+7:
+
+İlk eleman olan 7, kök düğüm olur.
+5:
+
+5, 7'den küçük olduğu için 7'nin soluna eklenir.
+1:
+
+1, 7'den küçük ve 5'ten de küçük olduğu için 5'in soluna eklenir.
+8:
+
+8, 7'den büyük olduğu için 7'nin sağına eklenir.
+3:
+
+3, 7'den küçük ve 5'ten büyük olduğu için 5'in sağında yer alır.
+6:
+
+6, 7'den küçük, 5'ten büyük ve 3'ten büyük olduğu için 5'in sağında, 3'ün sağında yer alır.
+0:
+
+0, 7'den küçük, 5'ten küçük ve 1'den de küçük olduğu için 1'in soluna eklenir.
+9:
+
+9, 7'den büyük ve 8'den de büyük olduğu için 8'in sağına eklenir.
+4:
+
+4, 7'den küçük, 5'ten büyük ve 6'dan küçük olduğu için 6'nın soluna eklenir.
+2:
+
+2, 7'den küçük, 5'ten küçük ve 1'den büyük olduğu için 1'in sağında yer alır.
+Sonuç
+Kök (Root): 7
+7'nin Solunda: 5
+5'in Solunda: 1
+5'in Sağında: 6
+1'in Solunda: 0
+1'in Sağında: 2
+6'nın Solunda: 4
+7'nin Sağında: 8
+8'in Sağında: 9
